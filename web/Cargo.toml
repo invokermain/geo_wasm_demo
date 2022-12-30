@@ -1,0 +1,11 @@
+[package]
+name = "web"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fyrox = "0.28"
+geo_wasm = { path = "../game" }
+
+[lib]
+crate-type = ["cdylib", "rlib"]
